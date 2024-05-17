@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- The dice displays -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/dice1"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <View
+            android:id="@+id/dice2"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <View
+            android:id="@+id/dice3"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+
+    <!-- The score display -->
+    <TextView
+        android:id="@+id/scoreDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 100" />
+
+    <!-- The buttons for betting -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="235.0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/betRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red" />
+
+        <Button
+            android:id="@+id/betBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue" />
+
+        <Button
+            android:id="@+id/betGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green" />
+
+        <Button
+            android:id="@+id/betYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yellow" />
+
+        <Button
+            android:id="@+id/betPurple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purple" />
+
+        <Button
+            android:id="@+id/betOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orange" />
+    </LinearLayout>
+
+</LinearLayout>

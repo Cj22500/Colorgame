@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colorgame", "Colorgame\Colorgame.csproj", "{BDCB5FA9-FC25-44EC-94AC-73D66E039D9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDCB5FA9-FC25-44EC-94AC-73D66E039D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCB5FA9-FC25-44EC-94AC-73D66E039D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCB5FA9-FC25-44EC-94AC-73D66E039D9F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BDCB5FA9-FC25-44EC-94AC-73D66E039D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCB5FA9-FC25-44EC-94AC-73D66E039D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCB5FA9-FC25-44EC-94AC-73D66E039D9F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3434FBE6-F1D5-410F-A537-7A7FC207F30F}
+	EndGlobalSection
+EndGlobal
